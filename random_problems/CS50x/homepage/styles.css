@@ -1,0 +1,61 @@
+.article {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#saber {
+    margin-top: 20px;
+}
+
+/* Selector 1: Target the entire div */
+.quote-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+    transition: transform 0.3s ease;
+  }
+
+  /* Selector 2: Hover effect on the div */
+  .quote-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* Selector 3: Style the h1 inside the div */
+  .quote-card h1 {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  /* Selector 4: Style the paragraph inside the div */
+  .quote-card p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+  }
+
+  /* Selector 5: Apply a glowing border effect using a pseudo-element */
+  .quote-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+  }

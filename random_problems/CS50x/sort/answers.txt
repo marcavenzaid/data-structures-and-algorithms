@@ -1,0 +1,15 @@
+sort1 uses: Bubble sort
+
+How do you know?: Because it is the fastest when sorting sorted. But takes a really
+long time for random and reversed. These are the expected running time of a bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?: This one takes the shortest amount of time for sorting random and reversed.
+Furthermore, sorting a sorted takes around the same time as sorting random and reversed.
+
+sort3 uses: Selection sort
+
+How do you know?: It takes longer time to complete sorting for each types of
+input (random, reversed, sorted). Longer time than the Merge sort. Furthermore,
+it takes a long time to complete sorting a sorted.

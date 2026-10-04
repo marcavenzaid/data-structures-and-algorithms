@@ -1,0 +1,7 @@
+Based on the results, the song has a slightly high energy, average valence, and high danceability.
+Which means that the song is slightly energetic, neutral in positivity, and high in danceability.
+In Spotify's audio aura language, I think they would characterize this as the purple aura.
+The aura that gets the listener amped up, entertained, and moving while they go over their day.
+
+I think the factors that are being considered to calculate the Audio Aura in this scenario are not enough.
+The key, loudness, and speechiness should be factored in as well in order to produce a more accurate guess of the aura.

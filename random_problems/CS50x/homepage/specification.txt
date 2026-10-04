@@ -1,0 +1,15 @@
+div
+button
+img
+table
+thead
+tr
+th
+td
+form
+p
+
+I used bootstrap to create containers and columns to organize the contents properly.
+I also used it to create some components such as buttons, table, form, etc.
+In regards to javascript, I used it to change the style of the quote-card in the index.html when clicked.
+
