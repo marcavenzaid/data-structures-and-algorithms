@@ -23,13 +23,15 @@ def input_list():
     """
     return list(map(int, input().split()))
 
-def input_str():
-    """Read a string from standard input and return it as a list of characters.
+def input_str_to_char_list():
+    """Read a string from standard input and return it as a list of characters
+    In Python, Strings are immutable. 
+    So, converting it into list of Characters may help in some cases where we need to modify the string.
     Example input:
     hello
 
     Example usage:
-    char_list = input_str()  # char_list = ['h', 'e', 'l', 'l', 'o']
+    char_list = input_str_to_char_list()  # char_list = ['h', 'e', 'l', 'l', 'o']
     """
     return list(input().strip())
 
