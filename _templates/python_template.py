@@ -5,6 +5,7 @@ MOD = 1000000007
 
 def input_int():
     """Read a single integer from standard input.
+
     Example input:
     5
 
@@ -13,34 +14,75 @@ def input_int():
     """
     return int(input())
 
-def input_list():
+def input_int_list():
     """Read a list of integers from standard input.
-    Example input:
-    1 2 3 4 5
 
-    Example usage:
-    lst = input_list()  # lst = [1, 2, 3, 4, 5]
-    """
-    return list(map(int, input().split()))
-
-def input_str_to_char_list():
-    """Read a string from standard input and return it as a list of characters
-    In Python, Strings are immutable. 
-    So, converting it into list of Characters may help in some cases where we need to modify the string.
-    Example input:
-    hello
-
-    Example usage:
-    char_list = input_str_to_char_list()  # char_list = ['h', 'e', 'l', 'l', 'o']
-    """
-    return list(input().strip())
-
-def input_ints():
-    """Read space separated integer variable inputs.
     Example input:
     1 2 3
 
     Example usage:
-    a, b, c = input_ints()  # a = 1, b = 2, c = 3
+    lst = input_int_list()  # lst = [1, 2, 3]
+    a, b, c = input_int_list()  # a = 1, b = 2, c = 3
     """
-    return map(int, input().split())
+    return list(map(int, input().split()))
+
+def input_int_grid(n):
+    """Read n lines of space separated integers as a 2D list.
+
+    Example input (n = 2):
+    1 2 3
+    4 5 6
+
+    Example usage:
+    grid = input_int_grid(2)  # grid = [[1, 2, 3], [4, 5, 6]]
+    """
+    return [input_int_list() for _ in range(n)]
+
+def input_char_list():
+    """Read a string from standard input and return it as a list of characters
+    In Python, Strings are immutable.
+    So, converting it into list of Characters may help in some cases where we need to modify the string.
+
+    Example input:
+    hello
+
+    Example usage:
+    char_list = input_char_list()  # char_list = ['h', 'e', 'l', 'l', 'o']
+    """
+    return list(input().strip())
+
+def input_char_grid(n):
+    """Read n lines, each as a list of characters (e.g. mazes, boards).
+
+    Example input (n = 2):
+    #.#
+    ..#
+
+    Example usage:
+    grid = input_char_grid(2)  # grid = [['#', '.', '#'], ['.', '.', '#']]
+    """
+    return [input_char_list() for _ in range(n)]
+
+def input_str_list():
+    """Read a line of space separated strings from standard input.
+
+    Example input:
+    apple banana cherry
+
+    Example usage:
+    words = input_str_list()  # words = ['apple', 'banana', 'cherry']
+    """
+    return input().split()
+
+def input_str_lines(n):
+    """Read n strings, each on its own line.
+
+    Example input:
+    apple
+    banana
+    cherry
+
+    Example usage:
+    words = input_str_lines(3)  # words = ['apple', 'banana', 'cherry']
+    """
+    return [input().strip() for _ in range(n)]
