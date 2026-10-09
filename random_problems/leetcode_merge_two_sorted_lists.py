@@ -56,12 +56,10 @@ def main():
     traverse_and_print_linked_list(list1_node1)
     print("list2: ", end="")
     traverse_and_print_linked_list(list2_node1)
-    print("----------------------------")
     
     solution = Solution()
     merged = solution.mergeTwoLists(list1_node1, list2_node1)
 
-    print("----------------------------")
     print("merged: ", end="")
     traverse_and_print_linked_list(merged)
 
