@@ -3,7 +3,7 @@ input = sys.stdin.readline
 
 MOD = 1000000007
 
-def input_int():
+def input_int() -> int:
     """Read a single integer from standard input.
 
     Example input:
@@ -14,7 +14,7 @@ def input_int():
     """
     return int(input())
 
-def input_int_list():
+def input_int_list() -> list[int]:
     """Read a list of integers from standard input.
 
     Example input:
@@ -26,7 +26,7 @@ def input_int_list():
     """
     return list(map(int, input().split()))
 
-def input_int_grid(n):
+def input_int_grid(n: int) -> list[list[int]]:
     """Read n lines of space separated integers as a 2D list.
 
     Example input (n = 2):
@@ -38,7 +38,7 @@ def input_int_grid(n):
     """
     return [input_int_list() for _ in range(n)]
 
-def input_char_list():
+def input_char_list() -> list[str]:
     """Read a string from standard input and return it as a list of characters
     In Python, Strings are immutable.
     So, converting it into list of Characters may help in some cases where we need to modify the string.
@@ -51,7 +51,7 @@ def input_char_list():
     """
     return list(input().strip())
 
-def input_char_grid(n):
+def input_char_grid(n: int) -> list[list[str]]:
     """Read n lines, each as a list of characters (e.g. mazes, boards).
 
     Example input (n = 2):
@@ -63,7 +63,7 @@ def input_char_grid(n):
     """
     return [input_char_list() for _ in range(n)]
 
-def input_str_list():
+def input_str_list() -> list[str]:
     """Read a line of space separated strings from standard input.
 
     Example input:
@@ -74,7 +74,7 @@ def input_str_list():
     """
     return input().split()
 
-def input_str_lines(n):
+def input_str_lines(n: int) -> list[str]:
     """Read n strings, each on its own line.
 
     Example input:
