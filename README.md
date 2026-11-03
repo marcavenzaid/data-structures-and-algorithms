@@ -6,9 +6,9 @@ My implementations of common data structures and algorithms, along with my solut
 
 | Folder | Description |
 | --- | --- |
-| [algorithms/](algorithms/) | Implementations of common algorithms, organized into subfolders by category (e.g. math, search, sort). |
-| [competitive_programming/](competitive_programming/) | Solutions to problems from programming contests, with one subfolder per contest. |
-| [data_structures/](data_structures/) | Implementations of common data structures. |
-| [miscellaneous/](miscellaneous/) | Miscellaneous code, such as solutions to practice problems, exercises from online courses, and other code I've written. |
-| [references/](references/) | Reusable helper code and reference notes. |
-| [templates/](templates/) | Starter templates for competitive programming. |
+| algorithms | Implementations of common algorithms. |
+| competitive_programming | Solutions to problems from programming contests. |
+| data_structures | Implementations of common data structures. |
+| miscellaneous | Miscellaneous code, such as solutions to practice problems, exercises from online courses, and other code I've written. |
+| references | Reusable helper code and reference notes. |
+| templates | Starter templates for competitive programming. |
