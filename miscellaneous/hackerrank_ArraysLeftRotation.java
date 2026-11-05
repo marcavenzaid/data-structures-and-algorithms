@@ -6,7 +6,7 @@
 import java.io.*;
 import java.util.*;
 
-public class HackerRankArraysLeftRotation {
+public class hackerrank_ArraysLeftRotation {
 	
 	static int[] rotLeft(int[] a, int d) {
 		int n = a.length;

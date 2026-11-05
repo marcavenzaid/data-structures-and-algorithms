@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class HackerRankJava1DArrayPart2 {
+public class hackerrank_Java1DArrayPart2 {
 	
 	private static int[] a;
 	private static int n;

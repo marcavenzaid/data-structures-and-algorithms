@@ -4,12 +4,12 @@ import java.awt.image.*;
 import java.util.*;
 import javax.swing.*;
 
-public class MOOCMathHero extends MOOCMathHeroListeningGameComponent
+public class mooc_MathHero extends MOOCMathHeroListeningGameComponent
 {
 	protected MOOCMathHeroWorld world;
 	protected String typed;
 
-	public MOOCMathHero()
+	public mooc_MathHero()
 	{
 		super(MOOCMathHeroUtil.MAX_R*2,MOOCMathHeroUtil.MAX_R*2);
 		world = MOOCMathHeroWorld.getWorld();
@@ -45,7 +45,7 @@ public class MOOCMathHero extends MOOCMathHeroListeningGameComponent
 
 	public static void main(String[] args)
 	{
-		new MOOCMathHero().makeTestWindow();
+		new mooc_MathHero().makeTestWindow();
 	}
 }
 

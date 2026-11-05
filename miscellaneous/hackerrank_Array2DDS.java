@@ -6,7 +6,7 @@
 import java.io.*;
 import java.util.*;
 
-public class HackerRankArray2DDS {
+public class hackerrank_Array2DDS {
 	
 	static int hourglassSum(int[][] arr) {
 		int maxSum = -9 * 7;

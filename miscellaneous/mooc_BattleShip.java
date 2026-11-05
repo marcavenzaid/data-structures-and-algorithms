@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class MOOCBattleShip {
+public class mooc_BattleShip {
     private static final int OCEAN_SIZE_X = 10;
     private static final int OCEAN_SIZE_Y = 10;
     private static final int SHIPS_COUNT = 5;

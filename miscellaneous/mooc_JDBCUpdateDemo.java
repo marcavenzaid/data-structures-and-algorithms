@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class MOOCJDBCUpdateDemo {
+public class mooc_JDBCUpdateDemo {
 
 	public static void main(String[] args) throws SQLException {
 		

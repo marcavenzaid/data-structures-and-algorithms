@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-public class HackerRankDuplicateWord {
+public class hackerrank_DuplicateWord {
 	
 	public static void main(String[] args) {
         String regex = "\\b(\\w+)(\\s+\\1\\b)+";

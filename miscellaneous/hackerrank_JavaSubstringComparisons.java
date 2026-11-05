@@ -3,7 +3,7 @@
  * created: Aug 3, 2018
  */
 
-public class HackerRankJavaSubstringComparisons {
+public class hackerrank_JavaSubstringComparisons {
 	
 	public static String getSmallestAndLargest(String s, int k) {
 		String substr = s.substring(0, k);

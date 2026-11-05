@@ -8,7 +8,7 @@ import java.util.*;
 import java.awt.Point;
 import java.lang.reflect.*;
 
-public class MOOCAnimalKingdom {
+public class mooc_AnimalKingdom {
     public static void main(String[] args) {
         MOOCAnimalKingdomCritterFrame frame = new MOOCAnimalKingdomCritterFrame(60, 40);
 

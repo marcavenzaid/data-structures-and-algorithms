@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-public class HackerRankNewYearChaos {
+public class hackerrank_NewYearChaos {
 
 	static void minimumBrides(int[] q) {
 		int n = q.length;

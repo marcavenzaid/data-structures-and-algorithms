@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class MOOCCompanyStructure {
+public class mooc_CompanyStructure {
     
 	public static void main(String[] args) {
 		MOOCCompanyStructureTechnicalLead CTO = new MOOCCompanyStructureTechnicalLead("Satya Nadella");

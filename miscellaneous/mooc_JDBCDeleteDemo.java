@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class MOOCJDBCDeleteDemo {
+public class mooc_JDBCDeleteDemo {
 
 	public static void main(String[] args) throws SQLException {
 				
