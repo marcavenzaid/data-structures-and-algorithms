@@ -1,5 +1,3 @@
-package marcavenzaid.lib.algo;
-
 public class SubArraysSum {
 
 	/**

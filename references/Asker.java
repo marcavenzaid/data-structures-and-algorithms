@@ -1,5 +1,3 @@
-package marcavenzaid.lib.asker;
-
 import java.util.Scanner;
 
 public final class Asker {

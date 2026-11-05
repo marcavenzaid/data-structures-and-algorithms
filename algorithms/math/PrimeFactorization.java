@@ -1,5 +1,3 @@
-package marcavenzaid.lib.algo;
-
 import java.util.ArrayList;
 
 public class PrimeFactorization {
