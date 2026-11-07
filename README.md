@@ -17,11 +17,13 @@ My implementations of common data structures and algorithms, along with my solut
 
 ## Item Counts
 
-The **Items** column is updated automatically by a git pre-commit hook in [`.githooks/`](.githooks/). On every commit, the hook recounts the files git tracks in each folder listed in the table (including subfolders, excluding `README.md` files), rewrites the column, and includes the updated `README.md` in the commit.
+The **Items** column in the folder structure table is updated automatically by a git pre-commit hook in [`.githooks/`](.githooks/). 
+
+On every commit, the hook recounts the files git tracks in each folder listed in the table (including subfolders, excluding `README.md` files), rewrites the column, and includes the updated `README.md` in the commit.
 
 To add a folder to the table, add a row in the folder structure table with the same folder name as it appears in the repo, with any placeholder count. The next commit fills it in.
 
-### Setup
+## Setup
 
 Git doesn't enable hooks from a cloned repository automatically. Run this once after cloning:
 
@@ -29,7 +31,7 @@ Git doesn't enable hooks from a cloned repository automatically. Run this once a
 git config core.hooksPath .githooks
 ```
 
-The hook requires Python 3. To update the counts without committing, run:
+To update the counts without committing, run:
 
 ```sh
 python .githooks/update_readme_counts.py
