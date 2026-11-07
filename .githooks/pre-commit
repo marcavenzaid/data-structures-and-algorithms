@@ -1,0 +1,12 @@
+#!/bin/sh
+# Update the item counts in README.md and include it in the commit.
+# Enable once per clone with: git config core.hooksPath .githooks
+
+if command -v python3 >/dev/null 2>&1 && python3 --version >/dev/null 2>&1; then
+  PYTHON=python3
+else
+  PYTHON=python
+fi
+
+"$PYTHON" .githooks/update_readme_counts.py || exit 1
+git add README.md
