@@ -10,7 +10,7 @@ My implementations of common data structures and algorithms, along with my solut
 | algorithms | 42 | Implementations of common algorithms. |
 | competitive_programming | 40 | Solutions to problems from programming contests. |
 | data_structures | 3 | Implementations of common data structures. |
-| miscellaneous | 202 | Miscellaneous code, such as solutions to practice problems, exercises from online courses, and other code I've written. |
+| miscellaneous | 204 | Miscellaneous code, such as solutions to practice problems, exercises from online courses, and other code I've written. |
 | references | 3 | Reusable helper code and reference notes. |
 | templates | 2 | Starter templates for competitive programming. |
 <!-- folder-table:end -->
