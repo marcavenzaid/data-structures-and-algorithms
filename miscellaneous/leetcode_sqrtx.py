@@ -1,45 +1,26 @@
 class Solution:
-    MAX_SIGNED_INTEGER = 2147483647  # Maximum signed integer value (2^31 - 1 or 2147483647).
-    MAX_SQRT = 46340  # Rounded down square root of max signed integer value.
-
-    def power(x: int, n: int) -> int:
-        if n == 0:
-            return 1
-        if n < 1:
-            return x
-        
-        p = x
-        for _ in range(0, n-1):
-            p *= x
-        return p
-    
     def mySqrt(self, x: int) -> int:
         if x == 0:
             return 0
         if x == 1:
             return 1
-        if x == Solution.MAX_SIGNED_INTEGER:
-            return Solution.MAX_SQRT
 
-        l = 0
-        r = Solution.MAX_SQRT
-        while r - l > 1:
-            mid = int((r + l) / 2)
-            squared = Solution.power(mid, 2)
+        ans = 0
+        l = 1
+        r = x  # sqrt < x
+        while l <= r:
+            mid = (r + l) // 2
+            squared = mid * mid
+
             if squared == x:
                 return mid
-            elif squared > x :
-                r = mid
+            elif squared > x:
+                r = mid - 1
             else:
-                l = mid
+                l = mid + 1
+                ans = mid
 
-        if Solution.power(mid, 2) < x:
-            if Solution.power(mid + 1, 2) == x:
-                return mid + 1
-            else:
-                return mid
-        else:
-            return mid - 1
+        return ans
         
 
 def main():
